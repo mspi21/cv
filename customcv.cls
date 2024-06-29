@@ -1,18 +1,16 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{customcv}[2024/04/28 Custom CV class]
+\ProvidesClass{customcv}[2024/06/29 Custom CV]
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
 \LoadClass{article}
 
 % Load necessary packages
-\RequirePackage[abspath]{currfile}
 \RequirePackage[a4paper]{geometry} % For setting page dimensions
 \RequirePackage{xcolor} % For defining colors
 \RequirePackage{fontspec} % For custom fonts
 \RequirePackage{titlesec} % For customizing section titles
 \RequirePackage{enumitem} % For customizing itemize environment
-\RequirePackage{changepage}
 \RequirePackage{tcolorbox}
 
 % Load main font from TTF file(s)
