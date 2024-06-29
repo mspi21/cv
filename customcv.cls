@@ -88,7 +88,7 @@
 
 % Define entry command
 \newcommand{\entry}[3]{%
-  \textbf{#1}\ifx?#2?\else{|}\fi { #2}\hfill \textbf{#3}%
+  \textbf{#1}{ }\ifx?#2?\else{|}\fi { #2}\hfill \textbf{#3}%
 }
 
 % Allow the user to customize the accent color
